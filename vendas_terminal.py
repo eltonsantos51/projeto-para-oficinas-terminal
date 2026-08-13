@@ -8,8 +8,6 @@ def realizar_venda ():
     quantidade e desconto (em porcentagem). Calcula o valor final da venda,
     registra a operação no banco de dados (fechamento de caixa) e retorna
     os dados da venda.
-
-    
     """
     print('-----Venda de mercadoria-----')
     preco_venda=desconto=0

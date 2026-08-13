@@ -3,7 +3,6 @@ import sqlite3
 banco=sqlite3.connect('oficina.db')#objeto da conexão com banco 
 cursor=banco.cursor()
 
-
 def criar_tabela()->None:
     """Cria as tabelas necessárias no banco de dados caso elas ainda não existam.
         As tabelas criadas são: produto, clientes e fechamento_caixa, cada uma
