@@ -1,5 +1,5 @@
 from codigo_principal import interface
-
+from rich import print
 from produtos_terminal import cadastrar_produto
 from vendas_terminal import realizar_venda
 from clientes_terminal import cadastrar_cliente
